@@ -5710,11 +5710,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Halil\\source\\repos\\Fleet\\Fleet\\Fleet.csproj",
+      "projectUniqueName": "C:\\Users\\Halil\\Documents\\Repos\\THYFleet\\Fleet\\Fleet.csproj",
       "projectName": "Fleet",
-      "projectPath": "C:\\Users\\Halil\\source\\repos\\Fleet\\Fleet\\Fleet.csproj",
+      "projectPath": "C:\\Users\\Halil\\Documents\\Repos\\THYFleet\\Fleet\\Fleet.csproj",
       "packagesPath": "C:\\Users\\Halil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Halil\\source\\repos\\Fleet\\Fleet\\obj\\",
+      "outputPath": "C:\\Users\\Halil\\Documents\\Repos\\THYFleet\\Fleet\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Halil\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5730,8 +5730,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Halil\\source\\repos\\Fleet\\AircraftData\\AircraftData.csproj": {
-              "projectPath": "C:\\Users\\Halil\\source\\repos\\Fleet\\AircraftData\\AircraftData.csproj"
+            "C:\\Users\\Halil\\Documents\\Repos\\THYFleet\\AircraftData\\AircraftData.csproj": {
+              "projectPath": "C:\\Users\\Halil\\Documents\\Repos\\THYFleet\\AircraftData\\AircraftData.csproj"
             }
           }
         }

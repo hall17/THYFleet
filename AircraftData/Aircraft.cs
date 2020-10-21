@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.Reflection;
 using System.Text;
 
 namespace AircraftData
@@ -31,4 +33,5 @@ namespace AircraftData
         public DateTime DeliveryDate { get; set; }
 
     }
+
 }

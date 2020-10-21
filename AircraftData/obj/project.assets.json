@@ -5727,11 +5727,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Halil\\source\\repos\\Fleet\\AircraftData\\AircraftData.csproj",
+      "projectUniqueName": "C:\\Users\\Halil\\Documents\\Repos\\THYFleet\\AircraftData\\AircraftData.csproj",
       "projectName": "AircraftData",
-      "projectPath": "C:\\Users\\Halil\\source\\repos\\Fleet\\AircraftData\\AircraftData.csproj",
+      "projectPath": "C:\\Users\\Halil\\Documents\\Repos\\THYFleet\\AircraftData\\AircraftData.csproj",
       "packagesPath": "C:\\Users\\Halil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Halil\\source\\repos\\Fleet\\AircraftData\\obj\\",
+      "outputPath": "C:\\Users\\Halil\\Documents\\Repos\\THYFleet\\AircraftData\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Halil\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -17,11 +17,11 @@ namespace AircraftData
         // async savings will be implemented later on.
         public Aircraft AddAC(Aircraft NewAC)
         {
-            Aircraft ac = new Aircraft();
-            FillACInfo(ref ac, NewAC);
-            context.Aircrafts.Add(ac);
+            //Aircraft ac = new Aircraft();
+            //FillACInfo(ref ac, NewAC);
+            context.Aircrafts.Add(NewAC);
             context.SaveChanges();
-            return ac;
+            return NewAC;
         }
         public Aircraft UpdateAC(Aircraft changedAC)
         {

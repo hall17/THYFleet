@@ -13,7 +13,6 @@ namespace Fleet.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
         private IAircraftRepository _ACRepository;
         //private readonly AppDbContext _context;
 
@@ -45,7 +44,6 @@ namespace Fleet.Controllers
         {   
             //var ACModel = _ACRepository.GetAircraftbyRegistration(reg);
             var ACModel = _ACRepository.GetAircraftbyID(Id);
-
             var model = new HomeACModel()
             {
                 aircraft = ACModel
@@ -59,18 +57,15 @@ namespace Fleet.Controllers
         [HttpPost]
         public ViewResult Create(HomeACModel model)
         {
-            _ACRepository.AddAC(model.aircraft);
+            Aircraft ac = model.FillACInfo(model);
+            _ACRepository.AddAC(ac);
             return View();
         }
         [HttpGet]
         public IActionResult Edit(int Id)
         {
             var ACModel = _ACRepository.GetAircraftbyID(Id);
-
-            var model = new HomeACModel()
-            {
-                aircraft = ACModel
-            };
+            var model = HomeACModel.FillACModelInfo(ACModel);         
             return View(model);
         }
         [HttpPost]

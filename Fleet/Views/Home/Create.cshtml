@@ -17,15 +17,24 @@
     <div class="form-group row">
         <label asp-for="@Model.aircraft.Model" class="col-sm-2 col-form-label"></label>
         <div class="col-sm-2">
-            <input asp-for="@Model.aircraft.Model" class="form-control" />
+            <select asp-for="@Model.ACmodel" class="custom-select mr-sm-3"
+                    asp-items="Html.GetEnumSelectList<Fleet.Models.Home.Model>()">
+                <option value="">Select Model</option>
+            </select>
         </div>
         <label asp-for="@Model.aircraft.ModelType" class="col-sm-2 col-form-label"></label>
         <div class="col-sm-2">
-            <input asp-for="@Model.aircraft.ModelType" class="form-control" />
+            <select asp-for="@Model.ACmodelType" class="custom-select mr-sm-3"
+                     asp-items="Html.GetEnumSelectList<Fleet.Models.Home.ModelType>()">
+                <option value="">Select Model Type</option>
+            </select>
         </div>
         <label asp-for="@Model.aircraft.Engine" class="col-sm-2 col-form-label"></label>
         <div class="col-sm-2">
-            <input asp-for="@Model.aircraft.Engine" class="form-control" />
+            <select asp-for="@Model.ACengineType" class="custom-select mr-sm-3"
+                    asp-items="Html.GetEnumSelectList<Fleet.Models.Home.EngineType>()">
+                <option value="">Select Engine</option>
+                </select>
         </div>
     </div>
     <div class="form-group row">
