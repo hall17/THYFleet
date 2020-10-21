@@ -1,0 +1,11 @@
+C:\Users\Halil\source\repos\Fleet\AircraftData\bin\Debug\netcoreapp3.1\AircraftData.deps.json
+C:\Users\Halil\source\repos\Fleet\AircraftData\bin\Debug\netcoreapp3.1\AircraftData.dll
+C:\Users\Halil\source\repos\Fleet\AircraftData\obj\Debug\netcoreapp3.1\AircraftData.AssemblyInfoInputs.cache
+C:\Users\Halil\source\repos\Fleet\AircraftData\obj\Debug\netcoreapp3.1\AircraftData.AssemblyInfo.cs
+C:\Users\Halil\source\repos\Fleet\AircraftData\bin\Debug\netcoreapp3.1\AircraftData.runtimeconfig.json
+C:\Users\Halil\source\repos\Fleet\AircraftData\bin\Debug\netcoreapp3.1\AircraftData.runtimeconfig.dev.json
+C:\Users\Halil\source\repos\Fleet\AircraftData\obj\Debug\netcoreapp3.1\AircraftData.genruntimeconfig.cache
+C:\Users\Halil\source\repos\Fleet\AircraftData\bin\Debug\netcoreapp3.1\AircraftData.pdb
+C:\Users\Halil\source\repos\Fleet\AircraftData\obj\Debug\netcoreapp3.1\AircraftData.csproj.CoreCompileInputs.cache
+C:\Users\Halil\source\repos\Fleet\AircraftData\obj\Debug\netcoreapp3.1\AircraftData.dll
+C:\Users\Halil\source\repos\Fleet\AircraftData\obj\Debug\netcoreapp3.1\AircraftData.pdb

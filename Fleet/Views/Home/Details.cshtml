@@ -1,0 +1,62 @@
+﻿@model Fleet.Models.Home.HomeACModel
+<h4></h4>
+<div>
+    <div class="form-group row">
+        <label asp-for="@Model.aircraft.Registration" class="col-sm-2 col-form-label"></label>
+        <div class="col-sm-4">
+            <label class="form-control">@Model.aircraft.Registration</label>
+        </div>
+        <label asp-for="@Model.aircraft.Effectivity" class="col-sm-2 col-form-label"></label>
+        <div class="col-sm-4">
+            <label class="form-control">@Model.aircraft.Effectivity</label>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label asp-for="@Model.aircraft.Model" class="col-sm-2 col-form-label"></label>
+        <div class="col-sm-2">
+            <label class="form-control">@Model.aircraft.Model</label>
+        </div>
+        <label asp-for="@Model.aircraft.ModelType" class="col-sm-2 col-form-label"></label>
+        <div class="col-sm-2">
+            <label class="form-control">@Model.aircraft.ModelType</label>
+        </div>
+        <label asp-for="@Model.aircraft.Engine" class="col-sm-2 col-form-label"></label>
+        <div class="col-sm-2">
+            <label class="form-control">@Model.aircraft.Engine</label>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label asp-for="@Model.aircraft.BodyNo" class="col-sm-2 col-form-label"></label>
+        <div class="col-sm-2">
+            <label class="form-control">@Model.aircraft.BodyNo</label>
+        </div>
+        <label asp-for="@Model.aircraft.LineNo" class="col-sm-2 col-form-label"></label>
+        <div class="col-sm-2">
+            <label class="form-control">@Model.aircraft.LineNo</label>
+        </div>
+        <label asp-for="@Model.aircraft.SerialNo" class="col-sm-2 col-form-label"></label>
+        <div class="col-sm-2">
+            <label class="form-control">@Model.aircraft.SerialNo</label>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label asp-for="@Model.aircraft.DeliveryDate" class="col-sm-2 col-form-label"></label>
+        <div class="col-sm-10">
+            <label class="form-control">@Model.aircraft.DeliveryDate</label>
+        </div>
+    </div>
+    <div class="form-group row text-center">
+        <div class="col-sm-12">
+                <a class="btn btn-primary" asp-controller="home" asp-action="index">
+                    Back to List
+                </a>
+                <a class="btn btn-primary" asp-controller="home"
+                   asp-action="edit" asp-route-id="@Model.aircraft.Id">
+                    Edit
+                </a>
+                <a class="btn btn-danger" asp-controller="home"
+                   asp-action="delete" asp-route-id="@Model.aircraft.Id">
+                    Delete
+                </a>
+            </div>
+        </div>

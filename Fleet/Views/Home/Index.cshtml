@@ -1,0 +1,54 @@
+﻿@model IEnumerable<AircraftData.Aircraft>
+@*
+    ViewData["Title"] = "Fleet Homepage";
+      <h3>@ViewData["Title"]</h3>
+*@
+<div id="aircrafts">
+    <h3>Fleet List</h3>
+    <div id="aircraftsTable">
+        <table class="table table-condensed" id="catalgIndexTable">
+            <thead>
+                <tr>
+                    <th>Model</th>
+                    <th>Registration</th>
+                    <th>Model Type</th>
+                    <th>Effectivity</th>
+                    <th>Body Number</th>
+                    <th>Line Number</th>
+                    <th>Serial Number</th>
+                    <th>Engine</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var ac in Model)
+                {
+                    <tr class="acRow">
+                        <td class="">@ac.Model</td>
+                        <td class="">@ac.Registration</td>
+                        <td class="">@ac.ModelType</td>
+                        <td class="">@ac.Effectivity</td>
+                        <td class="">@ac.BodyNo</td>
+                        <td class="">@ac.LineNo</td>
+                        <td class="">@ac.SerialNo</td>
+                        <td class="">@ac.Engine</td>
+                        <td>
+                            <a class="btn btn-primary btn-sm" asp-controller="Home" asp-action="Details"
+                               asp-route-id="@ac.Id">
+                                Details
+                            </a>
+                            <a class="btn btn-primary btn-sm" asp-controller="Home" asp-action="Edit"
+                               asp-route-id="@ac.Id">
+                                Edit
+                            </a>
+                            <a class="btn btn-danger btn-sm" asp-controller="Home" asp-action="Delete"
+                               asp-route-id="@ac.Id" onclick="return confirm('Are you sure you want to delete this Aircraft?')">
+                                Delete
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
