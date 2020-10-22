@@ -25,7 +25,6 @@ namespace Fleet.Models.Home
             ac.Model = model.ACmodel.ToString();
             ac.ModelType = model.ACmodelType.DisplayName();
             ac.Engine = model.ACengineType.DisplayName();
-            ac.Engine = model.aircraft.Engine;
             ac.BodyNo = model.aircraft.BodyNo;
             ac.LineNo = model.aircraft.LineNo;
             ac.SerialNo = model.aircraft.SerialNo;

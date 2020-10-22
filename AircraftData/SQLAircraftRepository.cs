@@ -17,8 +17,6 @@ namespace AircraftData
         // async savings will be implemented later on.
         public Aircraft AddAC(Aircraft NewAC)
         {
-            //Aircraft ac = new Aircraft();
-            //FillACInfo(ref ac, NewAC);
             context.Aircrafts.Add(NewAC);
             context.SaveChanges();
             return NewAC;
@@ -38,24 +36,18 @@ namespace AircraftData
             context.SaveChanges();
             return ac;
         }
-
         public Aircraft GetAircraftbyID(int Id)
         {
-            Aircraft ac = context.Aircrafts.FirstOrDefault(acc => acc.Id == Id);
-            return ac;
+            return context.Aircrafts.FirstOrDefault(acc => acc.Id == Id);
         }
-
         public Aircraft GetAircraftbyRegistration(string Registration)
         {
-            Aircraft ac = context.Aircrafts.FirstOrDefault(acc => acc.Registration == Registration);
-            return ac;
+            return context.Aircrafts.FirstOrDefault(acc => acc.Registration == Registration);
         }
-
         public IEnumerable<Aircraft> GetAllAircrafts()
         {
             return context.Aircrafts;
         }
-
         public void FillACInfo(ref Aircraft ac, Aircraft model)
         {
             ac.Id = model.Id;

@@ -31,12 +31,8 @@ namespace Fleet.Controllers
         public IActionResult InsertSqlData()
         {
             SQLInserter sql = new SQLInserter();
-            _ACRepository.GetAllAircrafts().ToList().ForEach(ac =>
-            _ACRepository.DeleteAC(ac));
-            foreach (var ac in sql._ACList)
-            {
-                _ACRepository.AddAC(ac);
-            }
+            _ACRepository.GetAllAircrafts().ToList().ForEach(ac => _ACRepository.DeleteAC(ac)); // Delete All ACs first.
+            sql._ACList.ForEach(ac => _ACRepository.AddAC(ac)); // Populate DB with SQLInserter data.
             return RedirectToAction(nameof(Index));
         }
         [HttpGet]
@@ -71,10 +67,8 @@ namespace Fleet.Controllers
         [HttpPost]
         public IActionResult Edit(HomeACModel model)
         {
-            if (ModelState.IsValid)
-            {
-                _ACRepository.UpdateAC(model.aircraft);
-            }
+            Aircraft ac = model.FillACInfo(model);
+                _ACRepository.UpdateAC(ac);
             return View(model);
         }
         public IActionResult Delete(int Id)
