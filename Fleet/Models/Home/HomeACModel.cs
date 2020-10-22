@@ -91,6 +91,8 @@ namespace Fleet.Models.Home
         B777,
         [Display(Name = "B777-F")]
         B777F,
+        [Display(Name = "B787-9")]
+        B7879,
         [Display(Name = "A330-203")]
         A330203,
         [Display(Name = "A330-303")]
@@ -110,6 +112,8 @@ namespace Fleet.Models.Home
         B777,
         [Display(Name = "GE90-110B")]
         B777F,
+        [Display(Name = "GEnx-1B74/75")]
+        B7879,
         [Display(Name = "CF6-80E1A3")]
         A330203,
         [Display(Name = "CF6-80E1A3")]
@@ -127,10 +131,5 @@ namespace Fleet.Models.Home
         }
 
     }
-    //public static ModelType GetEnum(string a)
-    //{
-    //    ModelType type = (ModelType)System.Enum.Parse(typeof(ModelType), a);
 
-    //    return type;
-    //}
 }
