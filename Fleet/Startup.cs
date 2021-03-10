@@ -39,6 +39,11 @@ namespace Fleet
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                using (var scope = app.ApplicationServices.CreateScope())
+                {
+                    var context = scope.ServiceProvider.GetService<AppDbContext>();
+                    context.Database.EnsureCreated();
+                }
             }
             else
             {

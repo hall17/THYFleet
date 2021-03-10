@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r6w3ma9khHf1DPXoVimudhPZLKr+xJrYtTC+Nl3glXT3YdexLhdOzH4FUC04ixuTNO8sRzgVUecZ4tTL2kBzVQ==",
+  "dgSpecHash": "91JDAgd6JfMoBxxfM12EGFTAwPsJ2WwZi4Pzge9Rd4K7DaxSCL/Y/vRECjwo7DqqQ60sy92R/t0s0yFlJCJ28g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Halil\\Documents\\Repos\\THYFleet\\Fleet\\Fleet.csproj",
+  "projectFilePath": "C:\\Users\\Halil\\Documents\\Repos\\THYFleet.NetCore\\Fleet\\Fleet.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Halil\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Halil\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

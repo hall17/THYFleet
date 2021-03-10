@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZreAf7oJjRseusSlKt3glT2ow1Z81XMx+7qkbWGBZnSQptJJrCYw78PyQVZ2iqx0bfvYUFi3ERoo13HwBrBQNg==",
+  "dgSpecHash": "D9+eyMFkdKP2eId8u2oiNbFf8CO/SWfWt1fq5agq9dSYbUedt6eMP2xGLEHkiM1hJyfuM82eDaNPFCNL0SjkrA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Halil\\Documents\\Repos\\THYFleet\\AircraftData\\AircraftData.csproj",
+  "projectFilePath": "C:\\Users\\Halil\\Documents\\Repos\\THYFleet.NetCore\\AircraftData\\AircraftData.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Halil\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Halil\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

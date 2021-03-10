@@ -21,3 +21,15 @@ C:\Users\Halil\Documents\Repos\THYFleet\AircraftData\obj\Debug\netcoreapp3.1\Air
 C:\Users\Halil\Documents\Repos\THYFleet\AircraftData\obj\Debug\netcoreapp3.1\AircraftData.dll
 C:\Users\Halil\Documents\Repos\THYFleet\AircraftData\obj\Debug\netcoreapp3.1\AircraftData.pdb
 C:\Users\Halil\Documents\Repos\THYFleet\AircraftData\obj\Debug\netcoreapp3.1\AircraftData.genruntimeconfig.cache
+C:\Users\Halil\Documents\Repos\THYFleet.NetCore\AircraftData\bin\Debug\netcoreapp3.1\AircraftData.deps.json
+C:\Users\Halil\Documents\Repos\THYFleet.NetCore\AircraftData\bin\Debug\netcoreapp3.1\AircraftData.runtimeconfig.json
+C:\Users\Halil\Documents\Repos\THYFleet.NetCore\AircraftData\bin\Debug\netcoreapp3.1\AircraftData.runtimeconfig.dev.json
+C:\Users\Halil\Documents\Repos\THYFleet.NetCore\AircraftData\bin\Debug\netcoreapp3.1\AircraftData.dll
+C:\Users\Halil\Documents\Repos\THYFleet.NetCore\AircraftData\bin\Debug\netcoreapp3.1\AircraftData.pdb
+C:\Users\Halil\Documents\Repos\THYFleet.NetCore\AircraftData\obj\Debug\netcoreapp3.1\AircraftData.csprojAssemblyReference.cache
+C:\Users\Halil\Documents\Repos\THYFleet.NetCore\AircraftData\obj\Debug\netcoreapp3.1\AircraftData.AssemblyInfoInputs.cache
+C:\Users\Halil\Documents\Repos\THYFleet.NetCore\AircraftData\obj\Debug\netcoreapp3.1\AircraftData.AssemblyInfo.cs
+C:\Users\Halil\Documents\Repos\THYFleet.NetCore\AircraftData\obj\Debug\netcoreapp3.1\AircraftData.csproj.CoreCompileInputs.cache
+C:\Users\Halil\Documents\Repos\THYFleet.NetCore\AircraftData\obj\Debug\netcoreapp3.1\AircraftData.dll
+C:\Users\Halil\Documents\Repos\THYFleet.NetCore\AircraftData\obj\Debug\netcoreapp3.1\AircraftData.pdb
+C:\Users\Halil\Documents\Repos\THYFleet.NetCore\AircraftData\obj\Debug\netcoreapp3.1\AircraftData.genruntimeconfig.cache
