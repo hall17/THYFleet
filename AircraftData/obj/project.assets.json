@@ -5722,19 +5722,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Halil\\.nuget\\packages\\": {}
+    "C:\\Users\\AKGUN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Halil\\Documents\\Repos\\THYFleet.NetCore\\AircraftData\\AircraftData.csproj",
+      "projectUniqueName": "C:\\Users\\AKGUN\\Documents\\Projects\\Github\\THYFleet\\AircraftData\\AircraftData.csproj",
       "projectName": "AircraftData",
-      "projectPath": "C:\\Users\\Halil\\Documents\\Repos\\THYFleet.NetCore\\AircraftData\\AircraftData.csproj",
-      "packagesPath": "C:\\Users\\Halil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Halil\\Documents\\Repos\\THYFleet.NetCore\\AircraftData\\obj\\",
+      "projectPath": "C:\\Users\\AKGUN\\Documents\\Projects\\Github\\THYFleet\\AircraftData\\AircraftData.csproj",
+      "packagesPath": "C:\\Users\\AKGUN\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\AKGUN\\Documents\\Projects\\Github\\THYFleet\\AircraftData\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Halil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\AKGUN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5796,7 +5796,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

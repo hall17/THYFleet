@@ -33,3 +33,16 @@ C:\Users\Halil\Documents\Repos\THYFleet.NetCore\AircraftData\obj\Debug\netcoreap
 C:\Users\Halil\Documents\Repos\THYFleet.NetCore\AircraftData\obj\Debug\netcoreapp3.1\AircraftData.dll
 C:\Users\Halil\Documents\Repos\THYFleet.NetCore\AircraftData\obj\Debug\netcoreapp3.1\AircraftData.pdb
 C:\Users\Halil\Documents\Repos\THYFleet.NetCore\AircraftData\obj\Debug\netcoreapp3.1\AircraftData.genruntimeconfig.cache
+C:\Users\AKGUN\Documents\Projects\Github\THYFleet\AircraftData\bin\Debug\netcoreapp3.1\AircraftData.deps.json
+C:\Users\AKGUN\Documents\Projects\Github\THYFleet\AircraftData\bin\Debug\netcoreapp3.1\AircraftData.runtimeconfig.json
+C:\Users\AKGUN\Documents\Projects\Github\THYFleet\AircraftData\bin\Debug\netcoreapp3.1\AircraftData.runtimeconfig.dev.json
+C:\Users\AKGUN\Documents\Projects\Github\THYFleet\AircraftData\bin\Debug\netcoreapp3.1\AircraftData.dll
+C:\Users\AKGUN\Documents\Projects\Github\THYFleet\AircraftData\bin\Debug\netcoreapp3.1\AircraftData.pdb
+C:\Users\AKGUN\Documents\Projects\Github\THYFleet\AircraftData\obj\Debug\netcoreapp3.1\AircraftData.csproj.AssemblyReference.cache
+C:\Users\AKGUN\Documents\Projects\Github\THYFleet\AircraftData\obj\Debug\netcoreapp3.1\AircraftData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AKGUN\Documents\Projects\Github\THYFleet\AircraftData\obj\Debug\netcoreapp3.1\AircraftData.AssemblyInfoInputs.cache
+C:\Users\AKGUN\Documents\Projects\Github\THYFleet\AircraftData\obj\Debug\netcoreapp3.1\AircraftData.AssemblyInfo.cs
+C:\Users\AKGUN\Documents\Projects\Github\THYFleet\AircraftData\obj\Debug\netcoreapp3.1\AircraftData.csproj.CoreCompileInputs.cache
+C:\Users\AKGUN\Documents\Projects\Github\THYFleet\AircraftData\obj\Debug\netcoreapp3.1\AircraftData.dll
+C:\Users\AKGUN\Documents\Projects\Github\THYFleet\AircraftData\obj\Debug\netcoreapp3.1\AircraftData.pdb
+C:\Users\AKGUN\Documents\Projects\Github\THYFleet\AircraftData\obj\Debug\netcoreapp3.1\AircraftData.genruntimeconfig.cache

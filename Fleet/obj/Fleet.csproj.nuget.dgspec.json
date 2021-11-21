@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Halil\\Documents\\Repos\\THYFleet.NetCore\\Fleet\\Fleet.csproj": {}
+    "C:\\Users\\AKGUN\\Documents\\Projects\\Github\\THYFleet\\Fleet\\Fleet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Halil\\Documents\\Repos\\THYFleet.NetCore\\AircraftData\\AircraftData.csproj": {
+    "C:\\Users\\AKGUN\\Documents\\Projects\\Github\\THYFleet\\AircraftData\\AircraftData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Halil\\Documents\\Repos\\THYFleet.NetCore\\AircraftData\\AircraftData.csproj",
+        "projectUniqueName": "C:\\Users\\AKGUN\\Documents\\Projects\\Github\\THYFleet\\AircraftData\\AircraftData.csproj",
         "projectName": "AircraftData",
-        "projectPath": "C:\\Users\\Halil\\Documents\\Repos\\THYFleet.NetCore\\AircraftData\\AircraftData.csproj",
-        "packagesPath": "C:\\Users\\Halil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Halil\\Documents\\Repos\\THYFleet.NetCore\\AircraftData\\obj\\",
+        "projectPath": "C:\\Users\\AKGUN\\Documents\\Projects\\Github\\THYFleet\\AircraftData\\AircraftData.csproj",
+        "packagesPath": "C:\\Users\\AKGUN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AKGUN\\Documents\\Projects\\Github\\THYFleet\\AircraftData\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Halil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\AKGUN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -76,21 +76,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Halil\\Documents\\Repos\\THYFleet.NetCore\\Fleet\\Fleet.csproj": {
+    "C:\\Users\\AKGUN\\Documents\\Projects\\Github\\THYFleet\\Fleet\\Fleet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Halil\\Documents\\Repos\\THYFleet.NetCore\\Fleet\\Fleet.csproj",
+        "projectUniqueName": "C:\\Users\\AKGUN\\Documents\\Projects\\Github\\THYFleet\\Fleet\\Fleet.csproj",
         "projectName": "Fleet",
-        "projectPath": "C:\\Users\\Halil\\Documents\\Repos\\THYFleet.NetCore\\Fleet\\Fleet.csproj",
-        "packagesPath": "C:\\Users\\Halil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Halil\\Documents\\Repos\\THYFleet.NetCore\\Fleet\\obj\\",
+        "projectPath": "C:\\Users\\AKGUN\\Documents\\Projects\\Github\\THYFleet\\Fleet\\Fleet.csproj",
+        "packagesPath": "C:\\Users\\AKGUN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AKGUN\\Documents\\Projects\\Github\\THYFleet\\Fleet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Halil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\AKGUN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -104,8 +104,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Halil\\Documents\\Repos\\THYFleet.NetCore\\AircraftData\\AircraftData.csproj": {
-                "projectPath": "C:\\Users\\Halil\\Documents\\Repos\\THYFleet.NetCore\\AircraftData\\AircraftData.csproj"
+              "C:\\Users\\AKGUN\\Documents\\Projects\\Github\\THYFleet\\AircraftData\\AircraftData.csproj": {
+                "projectPath": "C:\\Users\\AKGUN\\Documents\\Projects\\Github\\THYFleet\\AircraftData\\AircraftData.csproj"
               }
             }
           }
@@ -133,6 +133,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.9, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[3.1.4, )"
             }
           },
           "imports": [
@@ -153,7 +157,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

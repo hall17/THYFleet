@@ -29,8 +29,8 @@ namespace Fleet
             services.AddSingleton(Configuration);
             services.AddScoped<IAircraftRepository, SQLAircraftRepository>();
             services.AddDbContext<AppDbContext>(options 
-                => options.UseSqlServer(Configuration.GetConnectionString("FleetConnection")));
-
+                //=> options.UseSqlServer(Configuration.GetConnectionString("PostgreSQLConnection")));
+                => options.UseNpgsql(Configuration.GetConnectionString("PostgreSQLConnection")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
